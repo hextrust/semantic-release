@@ -1,5 +1,5 @@
 {
-  "name": "semantic-release",
+  "name": "@hex-public/semantic-release",
   "description": "Automated semver compliant package publishing",
   "version": "1.0.0-custom",
   "author": "Aditya Gupta",
@@ -67,7 +67,7 @@
     "stream-buffers": "3.0.2",
     "tempy": "1.0.1",
     "testdouble": "3.16.6",
-    "xo": "0.32.1"
+    "xo": "^0.52.4"
   },
   "engines": {
     "node": ">=16 || ^14.17"
@@ -137,5 +137,10 @@
     "extends": [
       "github>semantic-release/.github"
     ]
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
   }
 }
